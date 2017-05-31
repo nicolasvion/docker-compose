@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+  webserver:
+    build: ./docker/webserver
+    image: simple-webserver
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - /Users/nvion/Git/github/nicolasvion/docker-compose/simple-docker/www:/var/www/html
+#    links:
+#      - db

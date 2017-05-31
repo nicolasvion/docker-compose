@@ -1,2 +1,1 @@
-# docker-compose
-Docker-compose repository
+# Docker-compose repository
